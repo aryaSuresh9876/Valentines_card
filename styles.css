@@ -1,0 +1,45 @@
+
+.card-container{
+    /* border: 2px solid black; */
+        width: 600px;
+        height: 500px;
+        margin: 150px auto;
+        display: flex;
+        /* Enables flexbox */
+        flex-direction: column;
+        /* Stacks items vertically */
+        align-items: center;
+        /* Centers items horizontally */
+        justify-content: center;
+        /* Centers items vertically */
+        text-align: center;
+        /* Ensures text is centered */
+}
+.gif-container{
+    width: 600px;
+}
+.text-container{
+    padding: 120px auto;
+}
+.card-text{
+    justify-content: center;
+    font-family: "Inconsolata", serif;
+    font-size: 35px;
+    color: #FF69B4;
+}
+button{
+    border: none;
+    padding: 16px 30px;
+    font-size: 16px;
+    border-radius: 16px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.yes{
+    background-color: #98FB98;
+    color: #166534;
+}
+.no{
+    background-color: #FF6F61;
+}
